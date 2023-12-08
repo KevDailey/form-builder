@@ -1,0 +1,60 @@
+:root {
+    /* General */
+    --black: #111111;
+    --white: #ffffff;
+
+    --black-10: rgba(17, 17, 17, 0.1);
+    --black-20: rgba(17, 17, 17, 0.2);
+
+    --white-10: rgba(255, 255, 255, 0.1);
+    --white-20: rgba(255, 255, 255, 0.2);
+
+    /* Colors */
+    --primary-color-light: #5a84a0;
+    --primary-color-dark: #75a4c4;
+
+    --secondary-color-light: #9BBFD7;
+    --secondary-color-dark: #9BBFD7;
+
+    --accent-color-light: #69A9D3;
+    --accent-color-dark: #69A9D3;
+
+    --neutral-10-light: var(--black-10);
+    --neutral-10-dark: var(--white-10);
+
+    --neutral-20-light: var(--black-20);
+    --neutral-20-dark: var(--white-20);
+    
+    --heading-color-light: #020A0A;
+    --heading-color-dark: var(--white);
+
+    --body-color-light: var(--black);
+    --body-color-dark: #dddddd;
+    
+    --body-background-color-light: #F8FAFA;
+    --body-background-color-dark: #0a0f0f;
+
+    --widget-background-color-light: rgba(0, 0, 0, 0.03);
+    --widget-background-color-dark: rgba(255, 255, 255, 0.03);
+
+    --divider-color-light: var(--black-20);
+    --divider-color-dark: var(--white-20);
+
+    --input-background-color-light: var(--black-10);
+    --input-background-color-dark: var(--white-10);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+
+
+
+

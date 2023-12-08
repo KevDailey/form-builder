@@ -1,0 +1,31 @@
+.field-wrapper.dropped {
+  padding: 30px 0;
+  position: relative;
+  border-radius: var(--sm-border-radius);
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.field-wrapper.dropped:not(:last-of-type) {
+  border-bottom: 1px solid var(--divider-color);
+}
+.field-wrapper .input-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.field-wrapper .input-wrap label {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.field-wrapper .input-options-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--primary-color)
+}
